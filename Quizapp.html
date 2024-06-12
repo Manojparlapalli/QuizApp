@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <link rel="stylesheet" href="Quizapp.css">
+</head>
+
+<body>
+    <div class="bg" id="homePage">
+        <div>
+            <h1 class="head">Instuctions :-</h1>
+            <p class="para1">-> Total 10 questions are provided</p>
+            <p class="para1">-> For every right question you will get 1 mark</p>
+            <p class="para1">-> No negative marks for wrong Answers</p>
+            <p class="para1">-> You will get marks after completion your test</p>
+            <div class="center" id="check"><button class="button2" id="startBtn">start</button></div>
+        </div>
+    </div>
+    <div class="bg hide" id="mainPage">
+        <div class="cart">
+            <div id="answerBoard">
+                <h1 id="question">Question</h1>
+                <div>
+                    <button class="button" id="answer1">Answer1</button>
+                    <button class="button" id="answer2">Answer1</button>
+                    <button class="button" id="answer3">Answer1</button>
+                    <button class="button" id="answer4">Answer1</button>
+                </div>
+            </div>
+            <p id="para"></p>
+            <div class="width">
+                <button class="button1 hide" id="nextBtn">Next</button>
+
+                <button class="button hide">start</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg1 hide" id="result">
+        <h1 class="head" id="failorpass">Thanks for using this website.</h1>
+        <div class="cart">
+            <h1>your score is :</h1>
+            <div class="cart1">
+                <h1 class="head1" id="score">0</h1>
+                <hr />
+                <h1 class="head1" id="total">10</h1>
+            </div>
+        </div>
+    </div>
+    <script src="Quizapp.js"></script>
+    </body>
+
+</html>
